@@ -25,7 +25,8 @@
   "scripts": {
     "test": "tsc",
     "format": "prettier --check ./src ./playground",
-    "build": "rollup -c rollup.config.js"
+    "build": "rollup -c rollup.config.js",
+    "prepare": "rollup -c rollup.config.js"
   },
   "author": "wille",
   "repository": {
